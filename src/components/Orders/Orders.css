@@ -1,3 +1,22 @@
+.order-container {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: start;
+    align-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+
+.order-container .cart-container {
+    background-color: rgba(255, 153, 0, 0.3);
+    min-width: 60%;
+    border-radius: 5px;
+}
+
 .review-items-container {
     margin: 0 auto;
 }

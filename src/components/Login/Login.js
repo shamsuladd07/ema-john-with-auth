@@ -53,13 +53,7 @@ const Login = () => {
                 <div className='new-join'>
                     <p className='new-join-title'>New to Ema-john? <Link className='form-link' to="/signup"> Create New Account</Link></p>
                 </div>
-                <div >
-                    <div className='hr-container'>
-                        <hr />
-                        or
-                        <hr />
-                    </div>
-                </div>
+                <hr />
             </div>
         </div>
     );

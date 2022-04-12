@@ -1,0 +1,20 @@
+.sign-up {
+    height: 700px;
+}
+
+hr {
+    border: none;
+    border-top: 1px double #95A0A7;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: 'or';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+    color: #000;
+}

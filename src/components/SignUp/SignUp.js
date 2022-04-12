@@ -43,7 +43,7 @@ const SignUp = () => {
     }
 
     return (
-        <div className='form-container'>
+        <div className='form-container sign-up'>
             <div>
                 <h2 className='form-title'>Sign Up</h2>
                 <form onSubmit={handleCreateUser}>
@@ -65,13 +65,7 @@ const SignUp = () => {
                 <div className='new-join'>
                     <p className='new-join-title'>Already have an account? <Link className='form-link' to="/login"> Login</Link></p>
                 </div>
-                <div >
-                    <div className='hr-container'>
-                        <hr />
-                        or
-                        <hr />
-                    </div>
-                </div>
+                <hr />
             </div>
         </div>
     );

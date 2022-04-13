@@ -1,0 +1,10 @@
+.name,
+.address,
+.phone-number {
+    margin-bottom: 9px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #2A414F;
+}
